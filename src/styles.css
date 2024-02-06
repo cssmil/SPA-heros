@@ -1,0 +1,47 @@
+.cards-hero {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  
+}
+
+.card__hero {
+  max-width: 150px;
+  border: solid 1px rgb(213, 213, 213);
+}
+
+.card__hero img{
+  max-width: 100%;
+}
+
+.page-hero {
+  display: flex;
+  border: solid 1px rgb(189, 189, 189); 
+}
+
+.page-hero__image {
+  max-width: 200px;
+}
+
+.page-hero__image img{
+  width: 100%;
+}
+
+.page-hero__details {
+  flex-grow: 1;
+  padding: 20px;
+  position: relative;
+}
+.page-hero__details p {
+  border-bottom: solid 1px rgb(132, 132, 132);
+  display: block;
+  
+}
+.bottom-rigth {
+  display: block;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
